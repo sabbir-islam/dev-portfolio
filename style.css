@@ -15,13 +15,15 @@ body{
       
       section{
           display: flex;
-          padding-left: 6%;
+          padding-left: 5%;
+          margin-bottom: 100px;
       }
       .h-width{
           width: 50%;
+          padding: 4%;
       }
       .h-width img{
-        width: 80%;
+        width: 100%;
       } .link-button{
          background-image: linear-gradient(#FFBF21,#FFA032);
          text-decoration: none;
@@ -34,4 +36,17 @@ body{
             background-image: url(images/top-banner.png);
             background-repeat: no-repeat;
 
+         }
+         .about img{
+            width: 80%;
+         }
+         .cl-ab{
+            color:#ADBFC8;
+            font-weight: 700;
+         }
+         .know-me{
+            background-image: url(images/dream-bg.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            padding-right: 10%;
          }
