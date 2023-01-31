@@ -73,6 +73,33 @@ body{
          .lear-borde{
             border-left: 7px solid red;
          }
-         footer p{
+         footer{
             text-align: center;
+            background-color: #13233A;
+            padding: 2%;
+         }
+         nav{
+            background-color: #13233A;
+            padding: 3%;
+            text-align: center;
+         }
+         ul{
+            display: flex;
+            justify-content: center;
+         }
+         ul li{
+            display: inline-block;
+            background-color: dodgerblue;
+            padding: 12px 16px;
+            margin: 0 5px;
+            transition: all 0.7s ease;
+         }
+         ul li:hover{
+            background-color: aqua;
+         }
+         ul li a:hover{
+            font-size: 20px;
+         }
+         ul li a {
+            color: #fff;
          }
