@@ -6,6 +6,9 @@ body{
     h1{
         font-size: 40px;
     }
+    h2{
+      font-size: 30px;
+    }
       .cl-red{
         color: #F88667;
       }
@@ -13,7 +16,7 @@ body{
         color:#FFB626;
       }
       
-      section{
+      .flex-containe{
           display: flex;
           padding-left: 5%;
           margin-bottom: 100px;
@@ -49,4 +52,27 @@ body{
             background-repeat: no-repeat;
             background-position: right;
             padding-right: 10%;
+         }
+         .new-h-width{
+            width: 50%;
+            margin-left: 5%;
+            margin-right: 5%;
+            border-radius: 3%;
+            padding: 3%;
+            box-shadow: 10px 10px 40px gray;
+            
+         }
+         .experiance-sec{
+            background-image: url(images/exp-bg.png);
+            background-repeat: no-repeat;
+            background-position: left;
+         }
+         .full-stack-bord{
+            border-left: 7px solid yellow;
+         }
+         .lear-borde{
+            border-left: 7px solid red;
+         }
+         footer p{
+            text-align: center;
          }
